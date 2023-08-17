@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.min-vh-100 {
+    min-height: 100vh;
+}
+
+.pos-rel {
+    position: relative;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.flex-dir {
+    flex-direction: column;
+}
+
+.z-index-2 {
+    z-index: 2;
+}
+
+.btn {
+    width: 200px;
+    height: 45px;
+    padding: 13px 35px 13px 35px;
+    border-radius: 4px;
+    background: linear-gradient(97.42deg, #128DFF -4.95%, #1444EF 109.04%);
+    border: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+.btn:hover {
+    background: linear-gradient(97.42deg, #1444EF -4.95%, #128DFF 109.04%);
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.justify-content-end {
+    justify-content: end;
+}
+
+.btn2 {
+    width: 230px;
+    height: 45px;
+    padding: 13px 35px 13px 35px;
+    border: 1px solid #128DFF;
+    border-radius: 4px;
+    background: white;
+    cursor: pointer;
+    color: blue;
+    text-align: center;
+}
+
+.btn2:hover {
+    background: linear-gradient(97.42deg, #1444EF -4.95%, #128DFF 109.04%);
+}
+
+.btn2 {
+    margin-top: 15px;
+}
+
+.font1 {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.btn2 {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #128DFF;
+}
+
+.btn2:hover {
+    color: #fff;
+}
+
+.Sidebar {
+    width: 286px;
+    height: 100%;
+    flex-shrink: 0;
+    border-radius: 0px 16px 16px 0px;
+    background: #FFF;
+    box-shadow: 9px 4px 26px 0px rgba(0, 0, 0, 0.06);
+    position: absolute;
+    left: -286px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 21px 27px 0 29px;
+    z-index: 2;
+    transition: all 300ms linear;
+}
+
+.overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: -100%;
+    background-color: #B9B9B9;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.pt-78 {
+    padding-top: 78px;
+}
+
+.Sidebar.show {
+    left: 0;
+}
+
+.overlay.show2 {
+    left: 0;
+}
